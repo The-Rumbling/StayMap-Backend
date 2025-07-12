@@ -9,7 +9,7 @@ import com.therumbling.staymap.communities.infrastructure.persistence.jpa.reposi
 import com.therumbling.staymap.iam.domain.model.aggregates.User;
 import com.therumbling.staymap.iam.infrastructure.persistence.jpa.repositories.UserRepository;
 import org.springframework.stereotype.Service;
-
+ 
 @Service
 public class CommunityCommandServiceImpl implements CommunityCommandService {
     private final CommunityRepository communityRepository;
