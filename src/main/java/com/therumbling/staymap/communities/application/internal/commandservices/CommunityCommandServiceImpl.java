@@ -53,7 +53,7 @@ public class CommunityCommandServiceImpl implements CommunityCommandService {
             throw new IllegalArgumentException("Failed to join community " + e.getMessage());
         }
     }
-
+ 
     @Override
     public void handle(LeaveCommunityCommand command) {
         User user = userRepository.findById(command.userId())
