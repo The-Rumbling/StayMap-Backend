@@ -52,7 +52,7 @@ public class CommunityCommandServiceImpl implements CommunityCommandService {
         } catch (Exception e) {
             throw new IllegalArgumentException("Failed to join community " + e.getMessage());
         }
-    }
+    } 
  
     @Override
     public void handle(LeaveCommunityCommand command) {
